@@ -18,7 +18,7 @@ public class Dog extends Animal{
     }
 
     @Override
-    void medicalExpenses() {
+    public void medicalExpenses() {
         System.out.println("The cost of treatment: ");
         if (rankSecurity <= 4.0) {
             System.out.println("20$.");

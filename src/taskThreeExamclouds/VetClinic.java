@@ -12,9 +12,9 @@ public class VetClinic {
 
     public void medicalReception(Animal[] animals) {
 
-        for (int i = 0; i < animals.length; i++) {
-            System.out.println(animals[i].toString());
-            animals[i].medicalExpenses();
+        for (Animal animalsArray: animals) {
+            System.out.println(animalsArray.toString());
+            animalsArray.medicalExpenses();
             System.out.println();
         }
     }

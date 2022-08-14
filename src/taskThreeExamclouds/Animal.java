@@ -20,8 +20,7 @@ public abstract class Animal {
         this.animalBreed = animalBreed;
     }
 
-    void medicalExpenses() {
-    }
+    public abstract void medicalExpenses();
 
     public String toString() {
         return "Now at the reception: " + animalBreed + ", "

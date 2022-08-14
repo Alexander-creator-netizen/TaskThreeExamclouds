@@ -18,7 +18,7 @@ public class Horse extends Animal{
     }
 
     @Override
-    void medicalExpenses() {
+    public void medicalExpenses() {
         System.out.println("The cost of treatment: ");
         if (rankPureBlood <= 8.0) {
             System.out.println("1200$.");
