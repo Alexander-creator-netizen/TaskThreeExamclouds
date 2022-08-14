@@ -1,10 +1,16 @@
 package taskThreeExamclouds;
 
-import static taskThreeExamclouds.Cure.animals;
+/**
+ * Contains a method that takes an array as an argument and
+ * subsequently provides information about each element of this array.
+ *
+ * @author Alex Krentik
+ * @data 14.08.2022
+ */
 
 public class VetClinic {
 
-    void medicalReception() {
+    public void medicalReception(Animal[] animals) {
 
         for (int i = 0; i < animals.length; i++) {
             System.out.println(animals[i].toString());
@@ -12,6 +18,8 @@ public class VetClinic {
             System.out.println();
         }
     }
+
+
 
     @Override
     public String toString() {

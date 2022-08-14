@@ -1,6 +1,14 @@
 package taskThreeExamclouds;
 
-public class Cat extends Animal{
+/**
+ * Provides information about objects of the Cat type.
+ * Contains a method that calculates the cost of treatment for objects of this class.
+ *
+ * @author Alex Krentik
+ * @data 14.08.2022
+ */
+
+public class Cat extends Animal {
 
     private double rankPopularity;
 
@@ -12,12 +20,14 @@ public class Cat extends Animal{
     @Override
     void medicalExpenses() {
         System.out.println("The cost of treatment: ");
-        if (rankPopularity <= 6.0) {
+        if (rankPopularity <= 4.0) {
             System.out.println("100$.");
         } else {
             System.out.println("600$.");
         }
     }
+
+
 
     public double getRankPopularity() {
         return rankPopularity;

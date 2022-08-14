@@ -1,10 +1,18 @@
 package taskThreeExamclouds;
 
-public class Animal {
+/**
+ * Creating an abstract Animal class.
+ * Describes the general state and behavior that the heirs of this class will have.
+ *
+ * @author Alex Krentik
+ * @data 14.08.2022
+ */
 
-    String food;
-    String location;
-    String animalBreed;
+public abstract class Animal {
+
+    private String food;
+    private String location;
+    private String animalBreed;
 
     public Animal(String food, String location, String animalBreed) {
         this.food = food;

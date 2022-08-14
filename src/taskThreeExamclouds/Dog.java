@@ -1,5 +1,13 @@
 package taskThreeExamclouds;
 
+/**
+ * Provides information about objects of the Dog type.
+ * Contains a method that calculates the cost of treatment for objects of this class.
+ *
+ * @author Alex Krentik
+ * @data 14.08.2022
+ */
+
 public class Dog extends Animal{
 
     private double rankSecurity;
